@@ -1,0 +1,19 @@
+.box {
+  width: 400px;
+  height: 200px;
+  background-color: red;
+  padding: 20px 10px 30px 15px;
+  border: 8px solid black;
+  margin-bottom: 30px;
+}
+
+.blue {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+.yellow {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+}

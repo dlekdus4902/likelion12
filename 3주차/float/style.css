@@ -1,0 +1,33 @@
+.child1 {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(177, 197, 249);
+  float: left;
+}
+.child2 {
+  width: 200px;
+  height: 200px;
+  background-color: pink;
+  float: left;
+}
+
+.child3 {
+  width: 200px;
+  height: 200px;
+  background-color: gray;
+  float: left;
+}
+.parent {
+  width: 400px;
+  background-color: rgb(207, 234, 119);
+  margin: 0 auto;
+}
+.text1 {
+  background-color: green;
+  color: white;
+}
+.parent::after {
+  content: "";
+  display: block;
+  clear: left;
+}
