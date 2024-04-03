@@ -35,26 +35,21 @@
   right: 80px;
   width: 325px;
 }
-.airpodmax {
-}
+
 .ballcap {
   position: absolute;
   top: 50px;
   right: -5px;
   width: 310px;
 }
-.boxing {
-}
+
 .coffee {
   position: absolute;
   top: 188px;
   right: -59px;
   z-index: 5;
 }
-.cookie {
-}
-.hanbok {
-}
+
 .hamburger {
   position: absolute;
   top: 100px;
@@ -62,8 +57,7 @@
   width: 200px;
   z-index: 5;
 }
-.jacket_c {
-}
+
 .jacket_o {
   position: absolute;
   top: 120px;
