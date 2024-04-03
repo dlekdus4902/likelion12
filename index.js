@@ -4,19 +4,21 @@ const todos = document.querySelector("#할일들");
 
 button1.addEventListener("click", () => {
   const value1 = input1.value;
-  const p1 = document.createElement("p");
-  p1.innerText = value1;
-  todos.appendChild(p1);
+  const newTodo = document.createElement("p");
+  const todos = document.querySelector("#할일들");
+  const reset = document.querySelector("#초기화");
+  newTodo.innerText = value1;
+  todos.appendChild(newTodo);
   input1.value = "";
 
-  p1.addEventListener("click", () => {
+  newTodo.addEventListener("click", () => {
     //조건문
     //1. done이 없으면 done을 추가
     //2. 그게 아니면 done을 없앰
-    if (p1.className !== "done") {
-      p1.className = "done";
+    if (newTodo.className !== "done") {
+      newTodo.className = "done";
     } else {
-      p1.className = "";
+      newTodo.className = "";
     }
   });
 });
