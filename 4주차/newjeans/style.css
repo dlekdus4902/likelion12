@@ -7,7 +7,10 @@
   height: 2000px;
   background-color: gray;
   margin: 0 auto;
-  padding-top: 250px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-between;
 }
 
 .box {
@@ -15,10 +18,12 @@
   height: 400px;
   background-color: white;
   border: 6px solid black;
-  margin: 0 auto;
+  transition: opacity 500ms ease-in;
   position: relative;
 }
-
+.box:hover {
+  opacity: 0%;
+}
 .imgimg {
   width: 400px;
 }
